@@ -55,6 +55,7 @@ func main() {
 		if name := r.FormValue("name"); name != "" {
 			welcome.Name = name
 		}
+
 		//If errors show an internal server error message
 		//I also pass the welcome struct to the welcome-template.html file.
 		if err := templates.ExecuteTemplate(w, "welcome-template.html", welcome); err != nil {
