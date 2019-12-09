@@ -1,3 +1,13 @@
+/*
+
+	Welcome to Go:
+	a web application demo
+
+*/
+
+// Package declaration
+package main
+
 // import libraries
 // net/http for Go http access
 // fmt to format text
