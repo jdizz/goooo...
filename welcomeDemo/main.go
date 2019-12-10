@@ -2,6 +2,7 @@
 
 	Welcome to Go:
 	a web application demo
+	Sourced: https://github.com/lamw/demo-go-webapp
 
 */
 
